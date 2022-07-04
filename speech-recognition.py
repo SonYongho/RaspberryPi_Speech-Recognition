@@ -18,7 +18,7 @@ red = LED(20)
 now = datetime.now()
 ampm = now.strftime('%p')
 
-# 음성 인식
+# 음성 합성
 def recognize():
     global is_success, result
 
